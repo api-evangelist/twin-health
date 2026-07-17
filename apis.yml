@@ -1,0 +1,27 @@
+aid: twin-health
+name: Twin Health
+description: 'Twin Health is a company surfaced as a portfolio company of iconiq-capital and added to
+  the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
+  the enrichment pipeline.'
+url: https://raw.githubusercontent.com/api-evangelist/twin-health/refs/heads/main/apis.yml
+x-type: company
+x-source: vc-portfolio
+x-backed-by:
+- iconiq-capital
+x-tier: stub
+x-tier-reason: portfolio-lead
+specificationVersion: '0.20'
+created: '2026-07-17'
+modified: '2026-07-17'
+tags:
+- Company
+- Healthcare
+apis: []
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+- FN: APIs.json
+  email: info@apis.io
+common:
+- type: Website
+  url: https://www.twinhealth.com/
