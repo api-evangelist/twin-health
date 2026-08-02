@@ -1,0 +1,30 @@
+# Twin Health
+
+> Twin Health is a metabolic health company whose Whole Body Digital Twin uses AI and data from sensors and wearables to deliver personalized daily guidance and clinician-led care for type 2 diabetes, prediabetes, and obesity, sold through employers and health plans. It publishes no public developer API; members use the Twin Health mobile apps and the MyCare by Twin portal.
+
+## Company
+
+- [Twin Health website](https://www.twinhealth.com/): Corporate site (redirects to usa.twinhealth.com)
+- [Our approach](https://usa.twinhealth.com/ourapproach): How the Whole Body Digital Twin works
+- [For employers](https://usa.twinhealth.com/for-employers): Employer benefits offering
+- [For health plans](https://usa.twinhealth.com/for-health-plans): Health-plan offering
+- [For members](https://usa.twinhealth.com/for-members): Member experience
+- [Resources](https://usa.twinhealth.com/resources): Articles, white papers, and news
+- [Careers](https://usa.twinhealth.com/careers): Open roles
+
+## Apps
+
+- [MyCare by Twin](https://connect.twinhealth.com/mycare): Member web portal
+- [Twin Health on the App Store](https://apps.apple.com/us/app/twin-health/id1456423142): iOS member app
+- [Twin Health on Google Play](https://play.google.com/store/search?q=Twin%20Health&c=apps&hl=en_US): Android member app
+
+## Legal & Security
+
+- [Privacy policy](https://usa.twinhealth.com/legal/privacy)
+- [Terms of use](https://usa.twinhealth.com/legal/terms)
+- [Security & compliance](https://usa.twinhealth.com/legal/security-and-compliance): SOC 2 Type 2, HIPAA
+- [Responsible disclosure policy](https://usa.twinhealth.com/legal/twin-health-responsible-disclosure-policy): responsibledisclosure@twinhealth.com
+
+## Machine-Readable
+
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/twin-health/refs/heads/main/apis.yml): API Evangelist network profile (no public APIs)

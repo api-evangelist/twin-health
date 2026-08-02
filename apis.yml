@@ -1,8 +1,14 @@
 aid: twin-health
 name: Twin Health
-description: 'Twin Health is a company surfaced as a portfolio company of iconiq-capital and added to
-  the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Twin Health is a metabolic health company whose Whole Body Digital
+  Twin uses AI and real-time data from sensors and wearables to deliver personalized
+  daily guidance on food, sleep, activity, and stress, paired with clinician-led
+  care teams, to address type 2 diabetes, prediabetes, and obesity. The service
+  is sold through employers and health plans, with members served via the Twin
+  Health mobile apps and the MyCare by Twin portal. The company publishes no public
+  developer API, portal, or machine-readable surface, but does publish a SOC 2
+  Type 2 / HIPAA security-and-compliance program and a responsible disclosure
+  policy. Surfaced as a portfolio company of iconiq-capital.'
 url: https://raw.githubusercontent.com/api-evangelist/twin-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,31 @@ x-backed-by:
 - iconiq-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://cdn.prod.website-files.com/6633b8d9a22b8378b3d63b09/67a15d1e98945e56344e13c8_TwinHealth-OpenGraph.png
 tags:
 - Company
 - Healthcare
+- Metabolic Health
+- Digital Twin
+- Diabetes
+- Chronic Care
+- Artificial Intelligence
+- Health Plans
+- Employer Benefits
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,42 @@ maintainers:
 common:
 - type: Website
   url: https://www.twinhealth.com/
+- type: About
+  url: https://usa.twinhealth.com/company
+- type: Blog
+  url: https://usa.twinhealth.com/resources
+- type: Careers
+  url: https://usa.twinhealth.com/careers
+- type: SignUp
+  url: https://usa.twinhealth.com/get-started
+- type: Login
+  url: https://connect.twinhealth.com/mycare
+- type: PrivacyPolicy
+  url: https://usa.twinhealth.com/legal/privacy
+- type: TermsOfService
+  url: https://usa.twinhealth.com/legal/terms
+- type: Security
+  url: https://usa.twinhealth.com/legal/twin-health-responsible-disclosure-policy
+- type: Compliance
+  url: https://usa.twinhealth.com/legal/security-and-compliance
+- type: TrustCenter
+  url: security/twin-health-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/twin-health-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/twin-health-domain-security.yml
+- type: Conformance
+  url: conformance/twin-health-conformance.yml
+- type: LLMsTxt
+  url: llms/twin-health-llms.txt
+- type: LinkedIn
+  url: https://www.linkedin.com/company/twinhealth/
+- type: Facebook
+  url: https://www.facebook.com/twinhealthusa/
+- type: Instagram
+  url: https://www.instagram.com/twinhealthusa
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 6
+  pass: local-v1

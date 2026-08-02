@@ -1,0 +1,31 @@
+generated: '2026-07-21'
+method: searched
+source: https://usa.twinhealth.com/legal/security-and-compliance
+note: Twin Health publishes no public API surface, so API-level standards (oauth2,
+  oidc, fhir, rfc9457, pagination, idempotency) cannot be assessed. Entries below
+  reflect the published security/compliance program only.
+standards:
+- id: hipaa
+  conforms: true
+  evidence: Security & Compliance page states Twin Health is HIPAA compliant and
+    executes Business Associate Agreements.
+- id: soc2-type2
+  conforms: true
+  evidence: Security & Compliance page states Twin Health holds an AICPA SOC 2
+    Type 2 attestation.
+- id: hitrust-csf
+  conforms: false
+  evidence: HITRUST CSF is cited only for Twin Health's vendors, not the company
+    itself.
+- id: tls
+  conforms: true
+  evidence: HTTPS with TLS 1.2+ documented on the Security & Compliance page;
+    live probe of www.twinhealth.com negotiated TLSv1.3 with HSTS.
+- id: fhir-r4
+  conforms: false
+  evidence: No public API or FHIR surface found.
+- id: oauth2
+  conforms: false
+  evidence: No public API, developer docs, or OAuth metadata endpoints found
+    (/.well-known/openid-configuration and /oauth-authorization-server 404 on
+    usa.twinhealth.com and connect.twinhealth.com).

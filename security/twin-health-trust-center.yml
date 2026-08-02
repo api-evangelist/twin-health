@@ -1,0 +1,30 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+url: https://usa.twinhealth.com/legal/security-and-compliance
+kind: security-and-compliance-page
+certifications:
+- SOC 2 Type 2
+- HIPAA
+vendor_certifications:
+- ISO 27001
+- SOC 2 Type 2
+- HITRUST CSF
+practices:
+- Annual third-party security assessments
+- Annual penetration testing and monthly vulnerability scans
+- AES-128 encryption at rest and in transit; HTTPS with TLS 1.2, SSH v2, SFTP
+- Two-factor authentication and SSO
+- Deny-all network access control; DLP, IDS/IPS, SIEM, anti-malware, firewalls
+- Full-disk encryption on employee devices; no local PHI storage
+- Mandatory HIPAA and security training; 7-year background checks
+infrastructure:
+- AWS hosting across multiple availability zones
+- Hourly database snapshots tested monthly
+- US member data stored in the US and accessed only by US employees
+evidence:
+- source: https://usa.twinhealth.com/legal/security-and-compliance
+  keywords: [soc 2 type 2, hipaa, hitrust, iso 27001, penetration testing, encryption]
+  notes: Fetched 2026-07-21. SOC 2 Type 2 (AICPA) and HIPAA compliance are claimed
+    for Twin Health itself; ISO 27001 / SOC 2 Type 2 / HITRUST CSF are cited for
+    its vendors.
