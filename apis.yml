@@ -27,7 +27,7 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 image: https://cdn.prod.website-files.com/6633b8d9a22b8378b3d63b09/67a15d1e98945e56344e13c8_TwinHealth-OpenGraph.png
